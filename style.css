@@ -1,0 +1,46 @@
+body{ margin: 0;}
+.header{background-color: blue; clear:both; overflow: auto;}
+.logo{ float:left; color: gray; padding:10px; font-size: 40px;}
+.nav{ float:right; color: white;}
+
+li{display: inline-block; 
+padding: 20px; 
+font-size: 20px ;
+}
+li:hover{color: red;}
+.lipedema_list li{display: block;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.row:after {                  
+    content: "";
+    display: table;
+    clear: both;
+}
+body{ 
+    margin: 0;
+   background-image: url(flower_in_water.png);    
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100%;
+}
+
+.header{background-color: #00000b; clear:both; overflow: auto; opacity: .85;}
+.logo{ float:left; color: gray; padding:10px; font-size: 40px;}
+.nav{ float:right; color: white;}
+
+li{display: inline-block; 
+padding: 20px; 
+font-size: 20px ;
+}
